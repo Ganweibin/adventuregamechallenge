@@ -10,7 +10,7 @@ class AdventureGame extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      theme: ThemeData.dark(), // we are using the dark theme
+      theme: ThemeData.light(), // we are using the dark theme
       home: StoryPage(),
     );
   }
